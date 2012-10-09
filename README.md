@@ -7,6 +7,9 @@ The module contain one example controller in kohana-simpletest/classes/controlle
 
 ## Simpletest Oficial Page
 
+(http://beto.euqueroserummacaco.com/blog/wp-content/uploads/2012/10/simpletest-logo.png)
+
+
 	http://www.simpletest.org/
 	
 Methods

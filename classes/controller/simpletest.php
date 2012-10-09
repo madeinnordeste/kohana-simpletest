@@ -6,7 +6,9 @@ require Kohana::find_file('vendor', 'simpletest/autorun');
 class Controller_SimpleTest extends Controller {
   
   function action_index() {
-    $this->runall();
+    if(Kohana::$environment == 'development'){
+      $this->runall();  
+    }
   }
 
   

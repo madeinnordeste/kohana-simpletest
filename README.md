@@ -4,6 +4,29 @@ Module for use Simple Test in Kohana.
 
 The module contain one example controller in kohana-simpletest/classes/controller/simpletest.php
 
+The test run only in development mode. To change this behavior change the controller kohana-simpletest/classes/controller/simpletest.php - *This care can be dangerous*
+
+of
+
+	…
+	function action_index() {
+    	if(Kohana::$environment == 'development'){
+      		$this->runall();  
+    	}
+  	}
+  	...
+
+for
+
+	…
+	function action_index() {
+    	$this->runall();  
+  	}
+  	...
+
+
+
+
 
 ## Simpletest Oficial Page
 

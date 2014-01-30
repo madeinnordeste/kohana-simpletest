@@ -52,3 +52,7 @@ The module read all PHP files in tests/ folders !
 
 To remove folders from test, configure remove folder in config file. Original in the modules/kohana-simpletest/config/simpletest.php
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/madeinnordeste/kohana-simpletest/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
